@@ -1,4 +1,4 @@
-# sally-voice｜宋琼的口吻
+# sally-writing-style｜宋琼的口吻
 
 帮助同事用宋琼（Sally）的表达风格，撰写和修改视频号口播稿，也可用于文章及演讲草稿。
 
@@ -8,15 +8,15 @@
 
 把下面这句话发给 Codex：
 
-> 请用 skill-installer 安装 https://github.com/sallysong0509/sally-voice 仓库根目录的 Skill，安装名称为 sally-voice（仓库路径为 .）。
+> 请用 skill-installer 安装 https://github.com/sallysong0509/sally-writing-style 仓库根目录的 Skill，安装名称为 sally-writing-style（仓库路径为 .）。
 
-安装成功后，在下一轮对话中使用 `$sally-voice`。
+安装成功后，在下一轮对话中使用 `$sally-writing-style`。
 
 也可以在已安装 Git 的 macOS / Linux 终端执行：
 
 ```sh
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
-git clone https://github.com/sallysong0509/sally-voice.git "${CODEX_HOME:-$HOME/.codex}/skills/sally-voice"
+git clone https://github.com/sallysong0509/sally-writing-style.git "${CODEX_HOME:-$HOME/.codex}/skills/sally-writing-style"
 ```
 
 如果目标目录已经存在，先保留已有修改，不要直接覆盖。通过 Git 安装的副本可在工作区干净时用 `git pull --ff-only` 更新。
@@ -24,7 +24,7 @@ git clone https://github.com/sallysong0509/sally-voice.git "${CODEX_HOME:-$HOME/
 ## 使用示例
 
 ```text
-请用 $sally-voice，按宋琼的口吻写一篇面向家长的口播稿。
+请用 $sally-writing-style，按宋琼的口吻写一篇面向家长的口播稿。
 
 主题：孩子提出换兴趣班时，先理解原因。
 核心观点：不能立刻认定他缺乏毅力，应区分遇到困难与兴趣发生变化。
